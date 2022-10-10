@@ -9,8 +9,6 @@ def selectionSort(array, size) -> List[int]:
         min = j
         (array[min],array[index]) = (array[index],array[min])
         return array
-
-
 # Do not change the following code
 input_data = input()
 data = []
